@@ -1,6 +1,4 @@
-import styles from "../styles"
-import { motion } from "framer-motion";
-
+import styles from '../styles';
 
 const StartSteps = ({ number, text }) => (
   <div className={`${styles.flexCenter} flex-row`}>
