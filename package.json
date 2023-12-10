@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build --no-lint",
-    "lint": "eslint .",
-    "start": "next start"
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "npm run build && next export -o _static"
   },
   "dependencies": {
     "eslint-config-next": "13.0.3",
